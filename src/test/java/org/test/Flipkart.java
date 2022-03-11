@@ -47,10 +47,10 @@ public class Flipkart {
 
 		// Enter UserName
 		driver.findElement(By.xpath("//span[contains(text(), 'Enter Email/Mobile number')]/../../input"))
-				.sendKeys("9042769619");
+				.sendKeys("***");
 
 		// Enter Password
-		driver.findElement(By.xpath("//span[contains(text(), 'Enter Password')]/../../input")).sendKeys("anbaadira");
+		driver.findElement(By.xpath("//span[contains(text(), 'Enter Password')]/../../input")).sendKeys("***");
 
 		// Click login
 		driver.findElement(By.xpath("//span[contains(text(), 'Login')]/parent::button")).click();
